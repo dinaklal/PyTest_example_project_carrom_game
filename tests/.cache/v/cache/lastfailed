@@ -1,3 +1,8 @@
 {
+  "test_CleanStrike.py::TestClass::()::test_Board": true,
+  "test_CleanStrike.py::TestClass::()::test_game_end_draw": true,
+  "test_CleanStrike.py::TestClass::()::test_game_end_player1_win": true,
+  "test_CleanStrike.py::TestClass::()::test_player": true,
+  "test_CleanStrike.py::TestClass::()::test_two_times_red_input": true,
   "test_unit.py::test_main": true
 }

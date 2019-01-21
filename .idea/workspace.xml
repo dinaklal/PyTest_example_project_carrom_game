@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/scripts/CleanStrike.py" line="45" mnemonic="3" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="ba830739-a0c2-46d2-8fbe-07ab8407fa1a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.cache/v/cache/lastfailed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/.cache/v/cache/lastfailed" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/test_CleanStrike.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/unit_test.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/CleanStrike.iml" afterPath="$PROJECT_DIR$/.idea/CleanStrike.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/test_results_PyTest.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/__main__" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/CleanStrike.py" afterPath="$PROJECT_DIR$/scripts/CleanStrike.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/__main__.py" afterPath="$PROJECT_DIR$/scripts/__main__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/.cache/v/cache/lastfailed" afterPath="$PROJECT_DIR$/tests/.cache/v/cache/lastfailed" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_CleanStrike.py" afterPath="$PROJECT_DIR$/tests/test_CleanStrike.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,21 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CleanStrike.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/CleanStrike.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            <state relative-caret-position="-677">
+              <caret line="42" column="17" lean-forward="false" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -47,11 +33,9 @@
       <file leaf-file-name="test_CleanStrike.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/test_CleanStrike.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -60,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/scripts/__main__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -98,8 +82,8 @@
         <option value="$PROJECT_DIR$/scripts/__main__" />
         <option value="$PROJECT_DIR$/tests/test_unit.py" />
         <option value="$PROJECT_DIR$/scripts/__main__.py" />
-        <option value="$PROJECT_DIR$/tests/test_CleanStrike.py" />
         <option value="$PROJECT_DIR$/scripts/CleanStrike.py" />
+        <option value="$PROJECT_DIR$/tests/test_CleanStrike.py" />
       </list>
     </option>
   </component>
@@ -172,25 +156,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test for test_CleanStrike.test_game_end_player1_win">
-    <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CleanStrike" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/__main__.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="py.test for test_CleanStrike.test_game_end" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.py.test in test_CleanStrike.py">
+    <configuration name="py.test for test_CleanStrike.test_3fouls_from_player" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -202,10 +169,10 @@
       <module name="CleanStrike" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_CleanStrike.test_game_end&quot;" />
+      <option name="_new_target" value="&quot;test_CleanStrike.test_3fouls_from_player&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="py.test for test_CleanStrike.test_game_end_player1_win" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test for test_CleanStrike.test_coin_empty_draw" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -217,10 +184,10 @@
       <module name="CleanStrike" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_CleanStrike.test_game_end_player1_win&quot;" />
+      <option name="_new_target" value="&quot;test_CleanStrike.test_coin_empty_draw&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="py.test for test_CleanStrike.test_player" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test for test_CleanStrike.test_higher_input_exiting" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -232,7 +199,22 @@
       <module name="CleanStrike" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_CleanStrike.test_player&quot;" />
+      <option name="_new_target" value="&quot;test_CleanStrike.test_higher_input_exiting&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="py.test for test_CleanStrike.test_input_is_higherhan_board_coins" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CleanStrike" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_CleanStrike.test_input_is_higherhan_board_coins&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <configuration name="py.test in test_CleanStrike.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -251,19 +233,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.__main__" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_CleanStrike.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for test_CleanStrike.test_player" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test for test_CleanStrike.test_game_end" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test for test_CleanStrike.test_game_end_player1_win" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_CleanStrike.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test for test_CleanStrike.test_higher_input_exiting" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for test_CleanStrike.test_coin_empty_draw" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test for test_CleanStrike.test_input_is_higherhan_board_coins" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test for test_CleanStrike.test_3fouls_from_player" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test for test_CleanStrike.test_game_end_player1_win" />
-        <item index="1" class="java.lang.String" itemvalue="Python.__main__" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for test_CleanStrike.test_game_end" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_CleanStrike.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test for test_CleanStrike.test_player" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_CleanStrike.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test for test_CleanStrike.test_3fouls_from_player" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for test_CleanStrike.test_input_is_higherhan_board_coins" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test for test_CleanStrike.test_coin_empty_draw" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test for test_CleanStrike.test_higher_input_exiting" />
       </list>
     </recent_temporary>
   </component>
@@ -292,34 +274,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_for_test_CleanStrike_test_game_end - 2019.01.20 at 17h 19m 39s.xml">
-      <configuration name="py.test for test_CleanStrike.test_game_end" configurationId="tests" />
+    <history-entry file="py_test_for_test_CleanStrike_test_3fouls_from_player - 2019.01.21 at 10h 33m 47s.xml">
+      <configuration name="py.test for test_CleanStrike.test_3fouls_from_player" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_CleanStrike_test_game_end - 2019.01.20 at 17h 20m 24s.xml">
-      <configuration name="py.test for test_CleanStrike.test_game_end" configurationId="tests" />
+    <history-entry file="py_test_for_test_CleanStrike_test_3fouls_from_player - 2019.01.21 at 10h 34m 07s.xml">
+      <configuration name="py.test for test_CleanStrike.test_3fouls_from_player" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_CleanStrike_test_game_end - 2019.01.20 at 17h 21m 26s.xml">
-      <configuration name="py.test for test_CleanStrike.test_game_end" configurationId="tests" />
+    <history-entry file="py_test_for_test_CleanStrike_test_3fouls_from_player - 2019.01.21 at 10h 34m 29s.xml">
+      <configuration name="py.test for test_CleanStrike.test_3fouls_from_player" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_CleanStrike_test_game_end - 2019.01.20 at 17h 23m 41s.xml">
-      <configuration name="py.test for test_CleanStrike.test_game_end" configurationId="tests" />
+    <history-entry file="py_test_for_test_CleanStrike_test_3fouls_from_player - 2019.01.21 at 10h 35m 25s.xml">
+      <configuration name="py.test for test_CleanStrike.test_3fouls_from_player" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_CleanStrike_test_game_end_player1_win - 2019.01.20 at 17h 30m 25s.xml">
-      <configuration name="py.test for test_CleanStrike.test_game_end_player1_win" configurationId="tests" />
+    <history-entry file="py_test_for_test_CleanStrike_test_3fouls_from_player - 2019.01.21 at 10h 39m 03s.xml">
+      <configuration name="py.test for test_CleanStrike.test_3fouls_from_player" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_CleanStrike_test_game_end_player1_win - 2019.01.20 at 17h 31m 22s.xml">
-      <configuration name="py.test for test_CleanStrike.test_game_end_player1_win" configurationId="tests" />
+    <history-entry file="py_test_for_test_CleanStrike_test_input_is_higherhan_board_coins - 2019.01.21 at 10h 06m 14s.xml">
+      <configuration name="py.test for test_CleanStrike.test_input_is_higherhan_board_coins" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_CleanStrike_test_player - 2019.01.20 at 17h 20m 10s.xml">
-      <configuration name="py.test for test_CleanStrike.test_player" configurationId="tests" />
+    <history-entry file="py_test_for_test_CleanStrike_test_input_is_higherhan_board_coins - 2019.01.21 at 10h 06m 41s.xml">
+      <configuration name="py.test for test_CleanStrike.test_input_is_higherhan_board_coins" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_CleanStrike_test_player - 2019.01.20 at 17h 20m 35s.xml">
-      <configuration name="py.test for test_CleanStrike.test_player" configurationId="tests" />
+    <history-entry file="py_test_for_test_CleanStrike_test_input_is_higherhan_board_coins - 2019.01.21 at 10h 07m 13s.xml">
+      <configuration name="py.test for test_CleanStrike.test_input_is_higherhan_board_coins" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_CleanStrike_py - 2019.01.20 at 17h 20m 48s.xml">
+    <history-entry file="py_test_in_test_CleanStrike_py - 2019.01.21 at 10h 08m 18s.xml">
       <configuration name="py.test in test_CleanStrike.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_CleanStrike_py - 2019.01.20 at 17h 22m 16s.xml">
+    <history-entry file="py_test_in_test_CleanStrike_py - 2019.01.21 at 10h 39m 12s.xml">
       <configuration name="py.test in test_CleanStrike.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -327,9 +309,8 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3259587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3259587" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43510324" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39970502" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -339,26 +320,10 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25660965" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -392,7 +357,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="files added" />
     <MESSAGE value="Unit test files added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unit test files added" />
+    <MESSAGE value="Final version before functionality testing addition" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final version before functionality testing addition" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -403,7 +369,7 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="11" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -423,20 +389,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/CleanStrike.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/__main__.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/unit_test.py">
+    <entry file="file://$PROJECT_DIR$/scripts/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_CleanStrike.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="27" lean-forward="false" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/CleanStrike.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit_test.py" />
     <entry file="file://$PROJECT_DIR$/scripts/__main__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -453,14 +452,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/unit_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit_test.py" />
     <entry file="file://$PROJECT_DIR$/scripts/__main__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -495,14 +487,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/Main.py" />
     <entry file="file://$PROJECT_DIR$/scripts/__init__" />
-    <entry file="file://$PROJECT_DIR$/README.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/scripts/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -510,26 +494,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/unit_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit_test.py" />
     <entry file="file://C:/ProgramData/Anaconda3/Lib/urllib/parse.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
           <caret line="779" column="0" lean-forward="false" selection-start-line="779" selection-start-column="0" selection-end-line="779" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/__main__">
+    <entry file="file://$PROJECT_DIR$/scripts/__main__" />
+    <entry file="file://$PROJECT_DIR$/tests/test_unit.py" />
+    <entry file="file://$PROJECT_DIR$/README.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -542,37 +520,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_unit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/__main__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/CleanStrike.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="18" column="23" lean-forward="false" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        <state relative-caret-position="-677">
+          <caret line="42" column="17" lean-forward="false" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_CleanStrike.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
