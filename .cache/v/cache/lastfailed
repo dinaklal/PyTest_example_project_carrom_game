@@ -1,3 +1,4 @@
 {
+  "tests/test_CleanStrike.py": true,
   "tests/unit_test.py::test_player": true
 }

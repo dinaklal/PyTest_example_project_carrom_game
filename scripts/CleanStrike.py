@@ -38,7 +38,7 @@ class app:
     ''' Points are calculated in this function. The function will return points earned ,
        does red is still there ?, and no.of coins fell during the last strike.
     '''
-    def calcuate_points(strike) : 
+    def calculate_points(strike) :
              if strike == 1:
                 return 1,True,1
              elif strike == 2:
@@ -80,7 +80,7 @@ class app:
                        6. None\n" )
                        player_in= int(input())
                        #receiving points from calcuate_points() function
-                       points,red,coins_fell = app.calcuate_points(player_in)
+                       points,red,coins_fell = app.calculate_points(player_in)
                        
                        #If there is less coins in board than the coins fell down during strike
                        if current_board.coins < coins_fell :

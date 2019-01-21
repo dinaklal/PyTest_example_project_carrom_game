@@ -5,8 +5,10 @@ import pytest
 import CleanStrike
 from CleanStrike import *
 
+''' Functional and unit tests 
+   To execute test cases - From tests folder Execute "Python -m pytest test_CleanStrike "
+'''
 
-#functional and unit tests
 
 #testing Player class
 def test_player():
@@ -40,6 +42,18 @@ def test_game_end_player1_win():
     test_player2 = Player("2",1)
     print("\n Game end test for player1 win with 5-1 & game end")
     assert False == app.game_end(test_player1,test_player2,test_board)
+
+#testing calculate_points function
+def test_calculate_points():
+    a = app.calculate_points(3) # Red strike
+    assert 3 == a[0]
+    assert False == a[1]
+    assert 0 == a[2]
+    a = app.calculate_points(2)  # Multi strike
+    assert 2 == a[0]
+    assert True == a[1]
+    assert 2 == a[2]
+
 
 #testing input hgher than 6 - expecting systemexit
 def test_higher_input_exiting() :
@@ -83,7 +97,7 @@ def test_coin_empty_draw() :
     assert  out[6] ==  "Draw Game. Final Score:5-7"
 
 #testing input is higher than number of coins in board
-def test_input_is_higherhan_board_coins() :
+def test_input_is_higherthan_board_coins() :
     input_values = [2,2,2,2,2]
     out=[]
     def mock_input():
@@ -110,7 +124,7 @@ def test_3fouls_from_player() :
     assert  out[9] ==  "Player 1 won the game.Final Score: 5--3"
 
 #testing 3 non srikes from a player
-def test_3fouls_from_player() :
+def test_3non_strikes_from_player() :
     input_values = [1,2,1,6,1,6,1,6,1]
     out=[]
     def mock_input():
@@ -121,6 +135,33 @@ def test_3fouls_from_player() :
     CleanStrike.app.main()
 
     assert  out[9] ==  "Player 1 won the game.Final Score: 5-1"
+
+#testing Player 1 Winning game
+def test_Player1_win() :
+    input_values = [1,1,3,1,2]
+    out=[]
+    def mock_input():
+        return input_values.pop(0)
+
+    CleanStrike.input = mock_input
+    CleanStrike.print = lambda s: out.append(s)
+    CleanStrike.app.main()
+
+    assert  out[5] ==  "Player 1 won the game.Final Score: 6-2"
+
+#testing Player 2 Winning game
+def test_Player2_win() :
+    input_values = [1,1,6,1,6,3]
+    out=[]
+    def mock_input():
+        return input_values.pop(0)
+
+    CleanStrike.input = mock_input
+    CleanStrike.print = lambda s: out.append(s)
+    CleanStrike.app.main()
+
+    assert  out[6] ==  "Player 2 won the game.Final Score: 5-1"
+
 
 
 
