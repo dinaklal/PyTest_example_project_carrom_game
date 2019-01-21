@@ -1,7 +1,7 @@
 import pytest
 
 import CleanStrike
-rom scripts.CleanStrike import *
+from scripts.CleanStrike import *
 
 
 #functional and unit tests
