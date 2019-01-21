@@ -1,7 +1,9 @@
+import sys
+sys.path.append('../scripts')
 import pytest
 
-import scripts.CleanStrike
-from scripts.CleanStrike import *
+import CleanStrike
+from CleanStrike import *
 
 
 #functional and unit tests
@@ -48,10 +50,10 @@ def test_higher_input_exiting() :
 
         return   input_values.pop(0)
 
-    scripts.CleanStrike.input = mock_input
-    scripts.CleanStrike.print = lambda s: output.append(s)
+    CleanStrike.input = mock_input
+    CleanStrike.print = lambda s: output.append(s)
     with pytest.raises(SystemExit) as pytest_wrapped_e:
-        scripts.CleanStrike.app.main()
+        CleanStrike.app.main()
     assert pytest_wrapped_e.type == SystemExit
     assert output[1] == 'Invalid Input'
 #testing two times red strike input
@@ -61,10 +63,10 @@ def test_two_times_red_input() :
     def mock_input():
         return input_values.pop(0)
 
-    scripts.CleanStrike.input = mock_input
-    scripts.CleanStrike.print = lambda s: out.append(s)
+    CleanStrike.input = mock_input
+    CleanStrike.print = lambda s: out.append(s)
     with pytest.raises(SystemExit) as pytest_wrapped_e:
-        scripts.CleanStrike.app.main()
+        CleanStrike.app.main()
 
     assert  out[3] ==  "Invalid input, Already Red has been removed from the Board__exiting"
 #testing coin epmty draw
@@ -74,9 +76,9 @@ def test_coin_empty_draw() :
     def mock_input():
         return input_values.pop(0)
 
-    scripts.CleanStrike.input = mock_input
-    scripts.CleanStrike.print = lambda s: out.append(s)
-    scripts.CleanStrike.app.main()
+    CleanStrike.input = mock_input
+    CleanStrike.print = lambda s: out.append(s)
+    CleanStrike.app.main()
 
     assert  out[5] ==  "Draw Game"
 
@@ -87,10 +89,10 @@ def test_input_is_higherhan_board_coins() :
     def mock_input():
         return input_values.pop(0)
 
-    scripts.CleanStrike.input = mock_input
-    scripts.CleanStrike.print = lambda s: out.append(s)
+    CleanStrike.input = mock_input
+    CleanStrike.print = lambda s: out.append(s)
     with pytest.raises(SystemExit) as pytest_wrapped_e:
-        scripts.CleanStrike.app.main()
+        CleanStrike.app.main()
 
     assert  out[5] ==  "Invalid input, Insufficent coins in board"
 
@@ -101,9 +103,9 @@ def test_3fouls_from_player() :
     def mock_input():
         return input_values.pop(0)
 
-    scripts.CleanStrike.input = mock_input
-    scripts.CleanStrike.print = lambda s: out.append(s)
-    scripts.CleanStrike.app.main()
+    CleanStrike.input = mock_input
+    CleanStrike.print = lambda s: out.append(s)
+    CleanStrike.app.main()
 
     assert  out[9] ==  "Player 1 won the game.Final Score: 5--3"
 
@@ -114,9 +116,9 @@ def test_3fouls_from_player() :
     def mock_input():
         return input_values.pop(0)
 
-    scripts.CleanStrike.input = mock_input
-    scripts.CleanStrike.print = lambda s: out.append(s)
-    scripts.CleanStrike.app.main()
+    CleanStrike.input = mock_input
+    CleanStrike.print = lambda s: out.append(s)
+    CleanStrike.app.main()
 
     assert  out[9] ==  "Player 1 won the game.Final Score: 5-1"
 

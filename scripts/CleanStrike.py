@@ -101,7 +101,6 @@ class app:
                                points = points -1
                        playerA.second_last_point = playerA.last_point
                        playerA.last_point = points
-        pu
                        playerA.points = playerA.points+points
                        current_board.coins = current_board.coins-coins_fell
 
