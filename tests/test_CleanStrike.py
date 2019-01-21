@@ -107,6 +107,19 @@ def test_3fouls_from_player() :
 
     assert  out[9] ==  "Player 1 won the game.Final Score: 5--3"
 
+#testing 3 non srikes from a player
+def test_3fouls_from_player() :
+    input_values = [1,2,1,6,1,6,1,6,1]
+    out=[]
+    def mock_input():
+        return input_values.pop(0)
+
+    scripts.CleanStrike.input = mock_input
+    scripts.CleanStrike.print = lambda s: out.append(s)
+    scripts.CleanStrike.app.main()
+
+    assert  out[9] ==  "Player 1 won the game.Final Score: 5-1"
+
 
 
 

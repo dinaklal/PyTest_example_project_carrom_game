@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba830739-a0c2-46d2-8fbe-07ab8407fa1a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/test_results_PyTest.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/__main__" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/sample_io" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/CleanStrike.py" afterPath="$PROJECT_DIR$/scripts/CleanStrike.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/__main__.py" afterPath="$PROJECT_DIR$/scripts/__main__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/.cache/v/cache/lastfailed" afterPath="$PROJECT_DIR$/tests/.cache/v/cache/lastfailed" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_CleanStrike.py" afterPath="$PROJECT_DIR$/tests/test_CleanStrike.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +18,8 @@
       <file leaf-file-name="CleanStrike.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/CleanStrike.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-677">
-              <caret line="42" column="17" lean-forward="false" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+            <state relative-caret-position="-152">
+              <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -33,9 +28,11 @@
       <file leaf-file-name="test_CleanStrike.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/test_CleanStrike.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="250">
+              <caret line="117" column="54" lean-forward="true" selection-start-line="117" selection-start-column="54" selection-end-line="117" selection-end-column="54" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,7 +153,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in test_CleanStrike.py">
+  <component name="RunManager" selected="Python tests.py.test for test_CleanStrike.test_3fouls_from_player">
     <configuration name="py.test for test_CleanStrike.test_3fouls_from_player" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -241,8 +238,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_CleanStrike.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test for test_CleanStrike.test_3fouls_from_player" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test for test_CleanStrike.test_3fouls_from_player" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_CleanStrike.py" />
         <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for test_CleanStrike.test_input_is_higherhan_board_coins" />
         <item index="3" class="java.lang.String" itemvalue="Python tests.py.test for test_CleanStrike.test_coin_empty_draw" />
         <item index="4" class="java.lang.String" itemvalue="Python tests.py.test for test_CleanStrike.test_higher_input_exiting" />
@@ -289,11 +286,8 @@
     <history-entry file="py_test_for_test_CleanStrike_test_3fouls_from_player - 2019.01.21 at 10h 39m 03s.xml">
       <configuration name="py.test for test_CleanStrike.test_3fouls_from_player" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_CleanStrike_test_input_is_higherhan_board_coins - 2019.01.21 at 10h 06m 14s.xml">
-      <configuration name="py.test for test_CleanStrike.test_input_is_higherhan_board_coins" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_CleanStrike_test_input_is_higherhan_board_coins - 2019.01.21 at 10h 06m 41s.xml">
-      <configuration name="py.test for test_CleanStrike.test_input_is_higherhan_board_coins" configurationId="tests" />
+    <history-entry file="py_test_for_test_CleanStrike_test_3fouls_from_player - 2019.01.21 at 10h 44m 38s.xml">
+      <configuration name="py.test for test_CleanStrike.test_3fouls_from_player" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_for_test_CleanStrike_test_input_is_higherhan_board_coins - 2019.01.21 at 10h 07m 13s.xml">
       <configuration name="py.test for test_CleanStrike.test_input_is_higherhan_board_coins" configurationId="tests" />
@@ -304,11 +298,14 @@
     <history-entry file="py_test_in_test_CleanStrike_py - 2019.01.21 at 10h 39m 12s.xml">
       <configuration name="py.test in test_CleanStrike.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="py_test_in_test_CleanStrike_py - 2019.01.21 at 10h 44m 29s.xml">
+      <configuration name="py.test in test_CleanStrike.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3259587" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43510324" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -358,7 +355,8 @@
     <MESSAGE value="files added" />
     <MESSAGE value="Unit test files added" />
     <MESSAGE value="Final version before functionality testing addition" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final version before functionality testing addition" />
+    <MESSAGE value="Final version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -415,7 +413,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" column="27" lean-forward="false" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -530,17 +530,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/CleanStrike.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-677">
-          <caret line="42" column="17" lean-forward="false" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        <state relative-caret-position="-152">
+          <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_CleanStrike.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="250">
+          <caret line="117" column="54" lean-forward="true" selection-start-line="117" selection-start-column="54" selection-end-line="117" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
