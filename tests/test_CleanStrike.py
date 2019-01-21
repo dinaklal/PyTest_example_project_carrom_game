@@ -1,6 +1,6 @@
 import pytest
 
-import CleanStrike
+import scripts.CleanStrike
 from scripts.CleanStrike import *
 
 
