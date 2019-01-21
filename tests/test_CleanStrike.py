@@ -27,7 +27,7 @@ def test_Board():
 #testing game_end function for draw game
 
 def test_game_end_draw():
-    test_board = Board(0,1,0)
+    test_board = Board(0,0,0)
     test_player1 = Player("1",2)
     test_player2 = Player("2",3)
     print("\n Game end test for printing draw_game & game end")
@@ -71,7 +71,7 @@ def test_two_times_red_input() :
     assert  out[3] ==  "Invalid input, Already Red has been removed from the Board__exiting"
 #testing coin epmty draw
 def test_coin_empty_draw() :
-    input_values = [2,2,2,2,1]
+    input_values = [2,2,2,2,1,3]
     out=[]
     def mock_input():
         return input_values.pop(0)
@@ -80,7 +80,7 @@ def test_coin_empty_draw() :
     CleanStrike.print = lambda s: out.append(s)
     CleanStrike.app.main()
 
-    assert  out[5] ==  "Draw Game"
+    assert  out[6] ==  "Draw Game"
 
 #testing input is higher than number of coins in board
 def test_input_is_higherhan_board_coins() :
