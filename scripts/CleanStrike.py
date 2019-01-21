@@ -30,7 +30,7 @@ class app:
              print("Player " + playerB.name + " won the game.Final Score: "+str(playerB.points) + "-" + str(playerA.points))
              return False
         elif current_board.coins <= 0 and current_board.red == False: #if there is no coins in board including red
-            print("Draw Game")
+            print("Draw Game. Final Score:" + str(playerA.points) + "-"+ str(playerB.points))
             return False
         else :
                 return True
@@ -65,17 +65,22 @@ class app:
                 The turn will decided based on the Turn ( even - Player 1 , odd - Player2)
             '''
             while app.game_end(playerA,playerB,current_board) :
-                if current_board.turns % 2 == 0 :
-                       print("Player "+playerA.name+": Choose an outcome from the list below \n \
+                       #identifying the player
+                       if current_board.turns % 2 == 0 :
+                            player = playerA
+                       else :
+                            player = playerB
+                            
+                       print("Player "+player.name+": Choose an outcome from the list below \n \
                        1. Strike\n \
                        2. Multistrike\n \
                        3. Red strike\n \
                        4. Striker strike\n \
                        5. Defunct coin\n \
                        6. None\n" )
-                       playera_in= int(input())
+                       player_in= int(input())
                        #receiving points from calcuate_points() function
-                       points,red,coins_fell = app.calcuate_points(playera_in)
+                       points,red,coins_fell = app.calcuate_points(player_in)
                        
                        #If there is less coins in board than the coins fell down during strike
                        if current_board.coins < coins_fell :
@@ -94,50 +99,18 @@ class app:
                                 
                        ''' Check for continuous 3 fouls and continuous 3 Non-Strikes
                        '''
-                       if playerA.last_point < 1 and playerA.second_last_point < 1 and points < 1 :
-                           if playerA.last_point < 0 and playerA.second_last_point < 0 and points < 0 :
+                       if player.last_point < 1 and player.second_last_point < 1 and points < 1 :
+                           if player.last_point < 0 and player.second_last_point < 0 and points < 0 :
                                points = points - 2
                            else :
                                points = points -1
-                       playerA.second_last_point = playerA.last_point
-                       playerA.last_point = points
-                       playerA.points = playerA.points+points
+                       player.second_last_point = player.last_point
+                       player.last_point = points
+                       player.points = player.points+points
                        current_board.coins = current_board.coins-coins_fell
 
-
-                else:
-                       print("Player " + playerB.name + ": Choose an outcome from the list below \n \
-                       1. Strike\n \
-                       2. Multistrike\n \
-                       3. Red strike\n \
-                       4. Striker strike\n \
-                       5. Defunct coin\n \
-                       6. None\n")
-                       playerb_in = int(input())
-                       points, red,coins_fell = app.calcuate_points(playerb_in)
-                       if current_board.coins < coins_fell :
-                           print("Invalid input, Insufficent coins in board")
-                           sys.exit()
-                       if not red:
-                           if current_board.red == 0:
-                                print("Invalid input, Already Red has been removed from the Board__exiting")
-                                sys.exit()
-                           else :
-                                current_board.red =0
-                       if playerB.last_point < 1 and playerB.second_last_point < 1 and points < 1 :
-                           if playerB.last_point < 0 and playerB.second_last_point < 0 and points < 0 :
-                               points = points - 2
-                           else :
-                               points = points -1
-                       playerB.second_last_point = playerB.last_point
-                       playerB.last_point = points
-
-                       playerB.points = playerB.points + points
-                       current_board.coins = current_board.coins - coins_fell
-                       if red == False:
-                           current_board.red = 0
-
-                current_board.turns = current_board.turns + 1
+                       #increase turns count by one
+                       current_board.turns = current_board.turns + 1
 
 
 

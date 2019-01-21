@@ -80,7 +80,7 @@ def test_coin_empty_draw() :
     CleanStrike.print = lambda s: out.append(s)
     CleanStrike.app.main()
 
-    assert  out[6] ==  "Draw Game"
+    assert  out[6] ==  "Draw Game. Final Score:5-7"
 
 #testing input is higher than number of coins in board
 def test_input_is_higherhan_board_coins() :
