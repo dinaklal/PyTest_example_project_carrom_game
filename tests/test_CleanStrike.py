@@ -6,7 +6,8 @@ import CleanStrike
 from CleanStrike import *
 
 ''' Functional and unit tests 
-   To execute test cases - From tests folder Execute "Python -m pytest test_CleanStrike "
+   To execute test cases - From tests folder Execute "Python -m pytest test_CleanStrike.py "
+   
 '''
 
 
